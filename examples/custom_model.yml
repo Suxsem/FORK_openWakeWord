@@ -1,5 +1,8 @@
 ## Configuration file to be used with `train.py` to create custom wake word/phrase models
 
+piper_voices:
+  - "voices/it_IT-paola-medium.onnx"
+
 # The name of the model (will be used when creating directoires and when saving the final .onnx and .tflite files)
 model_name: "my_model"
 
